@@ -18,28 +18,33 @@ A simple Django web application that allows a user to take a quiz, submit answer
 
    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-2. Navigate into the project directory:
+2. **Navigate into the project directory:**
 
 bash
 Copy code
 cd quiz-app
-3. Create a virtual environment (optional but recommended):
+
+
+3. **Create a virtual environment (optional but recommended):**
 
 bash
 Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-4. Install dependencies:
+
+4. **Install dependencies:**
 
 bash
 Copy code
 pip install -r requirements.txt
-5. Apply migrations to set up the database:
+
+5. **Apply migrations to set up the database:**
 
 bash
 Copy code
 python manage.py migrate
-6. Create some sample questions (optional but helpful for testing): You can add questions manually through Django Admin or use the Django shell to add sample questions.
+
+6. **Create some sample questions (optional but helpful for testing): You can add questions manually through Django Admin or use the Django shell to add sample questions.**
 
 To open the Django shell:
 
@@ -56,7 +61,8 @@ Question.objects.create(
     option_a="Berlin", option_b="Madrid", option_c="Paris", option_d="Rome",
     correct_option="c"
 )
-7. Run the development server:
+
+7. **Run the development server:**
 
 bash
 Copy code
